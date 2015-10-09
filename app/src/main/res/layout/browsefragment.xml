@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/browsefrag">
+
+    <ListView
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/browselist"
+        android:layout_marginTop="75dp"/>
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sort By-"
+        android:layout_gravity="left|top" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:text="Name"
+            android:id="@+id/name_radioButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp" />
+
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Employee code"
+            android:id="@+id/emp_code_radioButton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp" />
+
+    </RadioGroup>
+
+</FrameLayout>

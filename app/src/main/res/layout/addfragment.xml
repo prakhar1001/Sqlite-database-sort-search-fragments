@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#1200"
+    android:id="@+id/addfrag"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    >
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:background="@layout/customborder"
+            android:hint="EMPLOYEE CODE"
+            android:id="@+id/emp_code"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:background="@layout/customborder"
+            android:hint="FULL NAME"
+            android:id="@+id/full_name"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:background="@layout/customborder"
+            android:hint="DESIGNATION"
+            android:id="@+id/designation"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:background="@layout/customborder"
+            android:hint="TAG LINE"
+            android:id="@+id/tagline"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:background="@layout/customborder"
+            android:hint="DEPARTMENT"
+            android:id="@+id/deptt"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_height="136dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/save_user"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:onClick="saveUser"
+                android:text="Save User" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
